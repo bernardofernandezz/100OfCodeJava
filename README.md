@@ -1,7 +1,11 @@
 <h1>100 Days of Code: Java</h1>
 
-System.out.println("
-Bem-vindo ao repositório do desafio 100 Days of Code com Java!")
+```java
+public class Saudacao {
+    public static void main(String[] args) {
+        System.out.println("Bem-vindo ao repositório do desafio 100 Days of Code com Java!");
+    }
+}
 
 - Este repositório contém todos os códigos, projetos e anotações que desenvolvi durante o desafio de 100 dias de programação contínua.
 
@@ -18,3 +22,4 @@ Bem-vindo ao repositório do desafio 100 Days of Code com Java!")
 <li>Anotações: Anotações e insights adquiridos durante o processo.</li>
 <li>Projetos: Projetos maiores que foram desenvolvidos ao longo de vários dias.</li>
 </ul>
+```
