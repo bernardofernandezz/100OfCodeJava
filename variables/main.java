@@ -5,7 +5,9 @@ public class main {
       String lastName = "Fernandez";
       String fullName = firstName + lastName;
       System.out.println(fullName);  
-      int idade = 15;
+      int x = 10, y = 5;
+      int idade = x + y;
+      
       System.out.println(idade);
     }
   }
