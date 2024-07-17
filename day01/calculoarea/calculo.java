@@ -1,4 +1,4 @@
-package calculoarea;
+package day01.calculoarea;
 
 public class calculo {
     public static void main(String[] args) {
