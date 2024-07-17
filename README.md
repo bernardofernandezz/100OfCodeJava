@@ -6,6 +6,7 @@ public class Saudacao {
         System.out.println("Bem-vindo ao repositório do desafio 100 Days of Code com Java!");
     }
 }
+```
 
 - Este repositório contém todos os códigos, projetos e anotações que desenvolvi durante o desafio de 100 dias de programação contínua.
 
