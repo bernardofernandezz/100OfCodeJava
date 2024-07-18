@@ -1,4 +1,4 @@
-package day01.primitivedata;
+package day02.primitivedata;
 
 public class primitive {
     public static void main(String[] args) {
