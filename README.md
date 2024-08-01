@@ -22,5 +22,6 @@ public class Saudacao {
 <li>Código Fonte: Arquivos .java contendo o código desenvolvido no dia.</li>
 <li>Anotações: Anotações e insights adquiridos durante o processo.</li>
 <li>Projetos: Projetos maiores que foram desenvolvidos ao longo de vários dias.</li>
+<li>Os projetos sempre estarão em diretórios em ordem, ex: "First Project"</li>
 </ul>
 
