@@ -18,6 +18,8 @@ public class Saudacao {
 
 - O repositório está organizado em diretório, onde cada diretório representa um dia do desafio. Dentro de cada diretório, você encontrará:
 
+  <h2>- Os projetos sempre estarão em diretórios em ordem. ex: "First Project"</h2>
+
 <ul>
 <li>Código Fonte: Arquivos .java contendo o código desenvolvido no dia.</li>
 <li>Anotações: Anotações e insights adquiridos durante o processo.</li>
