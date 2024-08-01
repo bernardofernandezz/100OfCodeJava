@@ -13,21 +13,32 @@ public class Calculadora {
         Double valorDois;
         String operacao;
         boolean continuar;
-
+        Double resultado = null;
    try {
        do {
-           System.out.println("Digite o valor um: ");
-           valorUm = scanner.nextDouble();
-
+           // caso resultado !== null
+           //     valorUm = resultado
+           //  e nao printa texto abaixo
+           if (resultado != null) {
+               valorUm = resultado;
+           } else {
+               System.out.println("Digite o valor um: ");
+               valorUm = scanner.nextDouble();
+           }
            System.out.println("Digite a operação: ( +, -, /, *): ");
            operacao = scanner.next();
 
            System.out.println("Digite o valor dois: ");
            valorDois = scanner.nextDouble();
+           resultado = realizarCalculo(valorUm, valorDois, operacao);
+           System.out.println("Resultado: " + resultado);
 
-           System.out.println("Resultado: " + realizarCalculo(valorUm, valorDois, operacao));
+           continuar = verificarReutilizarResultado();
+           if(!continuar) {
+               resultado = null;
+               continuar = verificarNovaOperacao();
+           }
 
-           continuar = verificarNovaOperacao();
        } while(continuar);
    }catch(InputMismatchException ex) {
        System.out.println("Os valores para calculos devem ser numéricos");
@@ -38,6 +49,14 @@ public class Calculadora {
 
     }
 
+
+    public static boolean verificarReutilizarResultado() {
+        Scanner  sc = new Scanner(System.in);
+
+        System.out.println("Deseja reutilizar o resultado acima? (S ou N): ");
+
+        return !sc.nextLine().toUpperCase(Locale.ROOT).equals("N");
+    }
     public static boolean verificarNovaOperacao() {
         Scanner  sc = new Scanner(System.in);
 
