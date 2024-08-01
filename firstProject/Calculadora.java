@@ -16,9 +16,6 @@ public class Calculadora {
         Double resultado = null;
    try {
        do {
-           // caso resultado !== null
-           //     valorUm = resultado
-           //  e nao printa texto abaixo
            if (resultado != null) {
                valorUm = resultado;
            } else {
