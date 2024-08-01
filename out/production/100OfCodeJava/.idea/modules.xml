@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
-      <module fileurl="file://$PROJECT_DIR$/.vscode.iml" filepath="$PROJECT_DIR$/.vscode.iml" />
-=======
       <module fileurl="file://$PROJECT_DIR$/100OfCodeJava.iml" filepath="$PROJECT_DIR$/100OfCodeJava.iml" />
->>>>>>> 7b0840c508012d52f875499c83af28515e73c5f3
     </modules>
   </component>
 </project>
