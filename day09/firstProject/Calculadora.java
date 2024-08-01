@@ -1,4 +1,4 @@
-package firstProject;
+package day09.firstProject;
 
 import java.util.InputMismatchException;
 import java.util.Locale;
