@@ -23,8 +23,6 @@ public class CadastroCinema {
         if (age < 18) {
             System.out.println("Acesso negado - Você não tem idade suficiente!");
 
-        } else if (age == 18) {
-            System.out.println("Acesso liberado - Você Já tem 18 anos");
         } else {
             System.out.println("Acesso Liberado - Você tem idade suficiente!");
         }
