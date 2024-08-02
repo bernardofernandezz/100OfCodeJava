@@ -14,7 +14,8 @@ public class Calculadora {
         String operacao;
         boolean continuar;
         Double resultado = null;
-   try {
+
+        try {
        do {
            if (resultado != null) {
                valorUm = resultado;
@@ -68,7 +69,7 @@ public class Calculadora {
         switch (operacao) {
             case "+":
                 respostaCalculo = valorUm + valorDois;
-                break;
+               break;
 
             case "-":
                 respostaCalculo = valorUm - valorDois;
